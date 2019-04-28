@@ -111,7 +111,7 @@ def too_short():
 
 
 @app.errorhandler(404)
-def page_not(e):
+def page_error(e):
     return "Nope. Nothing to do here ;) Maybe try:<br/><b>127.0.0.1:5000/org/google?start=81&stop=83<b/>"
 
 
