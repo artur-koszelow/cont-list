@@ -9,9 +9,7 @@ g = github.Github('d182396a7a87608bbe39d24a17766a830cf8cf0f')
 
 @app.route("/")
 def main_page():
-    return 'Hello Scala ;)<br/>\
-    <br/>\
-    I hope that I make your assignment right due to most of your criterias.<br/>\
+    return 'Hello ;)<br/>\
     <br/>\
     API is accessed from local host <b>(127.0.0.1:5000)</b> and data is received as <b>JSON</b><br/>\
     <br/>\
